@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = 'PDKTModelBuilder'
-  s.version      = '0.5'
+  s.version      = '0.6'
   s.license      = { :type => 'MIT' }
-  s.homepage     = 'https://github.com/Produkt/PDKTModelBuilder.git'
+  s.homepage     = 'https://github.com/Critizen-iOS/PDKTModelBuilder.git'
   s.author       = 'Daniel García' 
   s.summary      = 'Build and populate your models (CoreData or not) in a simple way'
-  s.source       = { :git => 'https://github.com/Produkt/PDKTModelBuilder.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/Critizen-iOS/PDKTModelBuilder.git', :tag => s.version.to_s }
   s.requires_arc = true
 
   s.default_subspec = 'Core'
